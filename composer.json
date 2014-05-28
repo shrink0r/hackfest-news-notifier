@@ -1,0 +1,28 @@
+{
+    "name": "EsHackfest-Percolate-Demo",
+    "type": "library",
+    "description": "Prototype app for playing with the elasticsearch's percolate feature.",
+    "keywords": ["elasticsearch", "percolate", "search"],
+    "homepage": "http://hackfest.elastic.berlin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Steffen Gransow"
+        },
+        {
+            "name": "Thorsten Schmitt-Rink"
+        }
+    ],
+
+    "autoload": {
+        "psr-0": {
+            "EsHackfest" : "lib"
+        }
+    },
+
+    "require": {
+        "cboden/Ratchet": "0.3.*",
+        "elasticsearch/elasticsearch": "~1.0",
+        "react/zmq": "0.2.*"
+    }
+}
