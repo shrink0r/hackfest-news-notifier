@@ -10,7 +10,7 @@ install-composer:
 install-vendor:
 
 	@if [ -d vendor/agavi/agavi/ ]; then svn revert -R vendor/agavi/agavi/; fi
-	@php -d allow_url_fopen=1 bin/composer.phar install --no-dev
+	@php -d allow_url_fopen=1 bin/composer.phar update --no-dev
 
 
 .PHONY: install-composer install-vendor
